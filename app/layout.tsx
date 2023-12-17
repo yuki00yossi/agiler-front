@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import {Providers} from "./providers";
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from "./common/header";
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang='ja' className='min-h-full'>
       <body className='light min-h-full'>
+        <Header />
         <Providers>
           {children}
         </Providers>
