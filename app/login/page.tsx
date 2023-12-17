@@ -5,10 +5,10 @@ export default function Login()
 {
     return (
         <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-            <div className="text-center">
+            <div className="w-60 mx-auto sm:w-full sm:max-w-sm p-5 text-center">
                 <h2>ログイン</h2>
             </div>
-            <div className="mt-5 w-60 sm:mx-auto sm:w-full sm:max-w-sm p-5 border bg-white">
+            <div className="mt-5 w-60 mx-auto sm:w-full sm:max-w-sm p-5 border bg-white">
                 <form className="space-y-3" action="#" method="POST">
                     <div>
                         <Input isRequired type="email" name="email" label="メールアドレス" labelPlacement={'inside'} description={'必須項目です'} />

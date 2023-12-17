@@ -8,7 +8,7 @@ export default function Login()
             <div className="text-center">
                 <h2>会員登録</h2>
             </div>
-            <div className="mt-5 w-60 sm:mx-auto sm:w-full sm:max-w-sm p-5 border bg-white">
+            <div className="mt-5 w-60 mx-auto sm:w-full sm:max-w-sm p-5 border bg-white">
                 <form className="space-y-3" action="#" method="POST">
                     <div>
                         <Input isRequired type="email" name="email" label="メールアドレス" labelPlacement={'inside'} description={'必須項目です'} />
